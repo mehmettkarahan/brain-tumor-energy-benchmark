@@ -183,7 +183,7 @@ The combined development scripts, duplicate console outputs, and full multi-sens
 Clone the repository and install the required Python packages:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/brain-tumor-energy-benchmark.git
+git clone https://github.com/mehmettkarahan/brain-tumor-energy-benchmark.git
 cd brain-tumor-energy-benchmark
 pip install -r requirements.txt
 ```
