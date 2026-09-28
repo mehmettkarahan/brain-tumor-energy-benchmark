@@ -1,0 +1,51 @@
+Model: AlexNet
+Training Start: 2025-04-17 05:50:41
+Training End: 2025-04-17 06:22:36
+Training Duration: 1914.62 seconds
+
+Final Test Accuracy: 93.62%
+
+Training Metrics:
+Epoch 1: Train Loss: 0.6363 | Train Acc: 73.55% | Val Loss: 0.6436 | Val Acc: 74.25%
+Epoch 2: Train Loss: 0.2903 | Train Acc: 88.78% | Val Loss: 0.3582 | Val Acc: 86.00%
+Epoch 3: Train Loss: 0.1759 | Train Acc: 93.44% | Val Loss: 0.3914 | Val Acc: 85.12%
+Epoch 4: Train Loss: 0.1157 | Train Acc: 95.83% | Val Loss: 0.2803 | Val Acc: 88.50%
+Epoch 5: Train Loss: 0.0818 | Train Acc: 96.95% | Val Loss: 0.1893 | Val Acc: 93.62%
+Epoch 6: Train Loss: 0.0622 | Train Acc: 97.83% | Val Loss: 0.1775 | Val Acc: 93.88%
+Epoch 7: Train Loss: 0.0527 | Train Acc: 98.17% | Val Loss: 0.1380 | Val Acc: 95.25%
+Epoch 8: Train Loss: 0.0136 | Train Acc: 99.59% | Val Loss: 0.2491 | Val Acc: 92.25%
+Epoch 9: Train Loss: 0.0071 | Train Acc: 99.83% | Val Loss: 0.2552 | Val Acc: 93.12%
+Epoch 10: Train Loss: 0.0049 | Train Acc: 99.86% | Val Loss: 0.2740 | Val Acc: 93.12%
+Epoch 11: Train Loss: 0.0034 | Train Acc: 99.91% | Val Loss: 0.3010 | Val Acc: 93.00%
+Epoch 12: Train Loss: 0.0031 | Train Acc: 99.92% | Val Loss: 0.2985 | Val Acc: 92.88%
+Epoch 13: Train Loss: 0.0025 | Train Acc: 99.92% | Val Loss: 0.3372 | Val Acc: 93.25%
+Epoch 14: Train Loss: 0.0019 | Train Acc: 99.96% | Val Loss: 0.3050 | Val Acc: 94.12%
+Epoch 15: Train Loss: 0.0012 | Train Acc: 99.97% | Val Loss: 0.3446 | Val Acc: 93.38%
+Epoch 16: Train Loss: 0.0010 | Train Acc: 99.96% | Val Loss: 0.3310 | Val Acc: 93.75%
+Epoch 17: Train Loss: 0.0010 | Train Acc: 99.97% | Val Loss: 0.3363 | Val Acc: 93.75%
+Epoch 18: Train Loss: 0.0006 | Train Acc: 99.98% | Val Loss: 0.3325 | Val Acc: 94.12%
+Epoch 19: Train Loss: 0.0008 | Train Acc: 99.97% | Val Loss: 0.3421 | Val Acc: 93.88%
+Epoch 20: Train Loss: 0.0006 | Train Acc: 99.97% | Val Loss: 0.3343 | Val Acc: 94.00%
+Epoch 21: Train Loss: 0.0009 | Train Acc: 99.98% | Val Loss: 0.3662 | Val Acc: 93.62%
+Epoch 22: Train Loss: 0.0007 | Train Acc: 99.98% | Val Loss: 0.3643 | Val Acc: 93.62%
+Epoch 23: Train Loss: 0.0006 | Train Acc: 99.98% | Val Loss: 0.3644 | Val Acc: 93.62%
+Epoch 24: Train Loss: 0.0006 | Train Acc: 99.97% | Val Loss: 0.3651 | Val Acc: 93.62%
+Epoch 25: Train Loss: 0.0005 | Train Acc: 99.98% | Val Loss: 0.3665 | Val Acc: 93.62%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      glioma       1.00      0.77      0.87       200
+  meningioma       0.85      0.98      0.91       200
+     notumor       0.99      1.00      0.99       200
+   pituitary       0.94      0.99      0.97       200
+
+    accuracy                           0.94       800
+   macro avg       0.94      0.94      0.93       800
+weighted avg       0.94      0.94      0.93       800
+
+AUC Scores:
+glioma: 0.9965
+meningioma: 0.9954
+notumor: 1.0000
+pituitary: 0.9994
